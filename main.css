@@ -1,0 +1,27 @@
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+}
+
+.light-theme {
+    --bg: var(--bs-light);
+    --fontColor: var(--bs-black);
+    --btnBg: var(--bs-black);
+    --btnFontColor: var(--bs-white);
+}
+
+.dark-theme {
+    --bg: var(--bs-black);
+    --fontColor: var(--bs-white);
+    --btnBg: var(--bs-white);
+    --btnFontColor: var(--bs-black);
+}
+
+.theme-btn {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
